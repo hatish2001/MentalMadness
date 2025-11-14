@@ -1,0 +1,37 @@
+{
+  "name": "mindcheck-backend",
+  "version": "1.0.0",
+  "description": "MindCheck Mental Health Platform Backend",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test": "jest",
+    "migrate": "node src/db/migrate.js"
+  },
+  "keywords": ["mental-health", "b2b", "wellness"],
+  "author": "MindCheck Team",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "helmet": "^7.0.0",
+    "express-rate-limit": "^7.1.0",
+    "dotenv": "^16.3.1",
+    "pg": "^8.11.3",
+    "redis": "^4.6.10",
+    "jsonwebtoken": "^9.0.2",
+    "bcryptjs": "^2.4.3",
+    "joi": "^17.11.0",
+    "uuid": "^9.0.1",
+    "nodemailer": "^6.9.7",
+    "winston": "^3.11.0",
+    "express-validator": "^7.0.1",
+    "moment": "^2.29.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "jest": "^29.7.0",
+    "supertest": "^6.3.3"
+  }
+}
