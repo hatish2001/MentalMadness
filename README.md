@@ -264,15 +264,6 @@ We're building this to solve a real problem. If you've experienced corporate bur
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📄 License
-
-This project is proprietary software. All rights reserved.
-
-## 🆘 Support
-
-- **Documentation**: [docs.mentalmadness.com](https://docs.mentalmadness.com)
-- **Email**: support@mentalmadness.com
-- **Enterprise Support**: enterprise@mentalmadness.com
 
 ## 🙏 Our Mission
 
