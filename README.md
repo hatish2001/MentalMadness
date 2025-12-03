@@ -1,12 +1,6 @@
 # MentalMadness - Breaking the Corporate Burnout Cycle
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Status-MVP%20Complete-green" alt="Status" />
-  <img src="https://img.shields.io/badge/HIPAA-Compliant-blue" alt="HIPAA" />
-  <img src="https://img.shields.io/badge/License-Proprietary-red" alt="License" />
-</p>
-
-## 🔥 The Problem: Corporate Burnout is Real
+## The Problem: Corporate Burnout is Real
 
 Working at corporate and feeling burnout isn't just a buzzword—it's a silent epidemic. You know the drill: endless meetings that could've been emails, deadlines that keep moving, the constant ping of notifications, and that nagging feeling that you're always behind. The 9-to-5 has become 24/7, and your mental health is paying the price.
 
@@ -18,41 +12,41 @@ Working at corporate and feeling burnout isn't just a buzzword—it's a silent e
 
 The corporate world has normalized stress, but we're here to say: **enough is enough.**
 
-## 💡 Introducing MentalMadness
+## Introducing MentalMadness
 
 MentalMadness is a B2B mental health platform born from the frustration of watching talented people break under the weight of corporate pressure. We're not here to add another wellness app to your phone. We're here to **disrupt the burnout cycle** and give companies the tools to actually care about their people—not just their productivity.
 
 ### Why MentalMadness?
 
 **For Employees:**
-- 🛡️ **Your privacy is sacred** - We protect your data like it's our own
-- ⚡ **2 minutes a day** - No lengthy surveys, no time-wasting
-- 🎯 **Real interventions** - Not generic advice, but personalized support
-- 📊 **See your progress** - Track your journey from burnout to balance
+- **Your privacy is sacred** - We protect your data like it's our own
+- **2 minutes a day** - No lengthy surveys, no time-wasting
+- **Real interventions** - Not generic advice, but personalized support
+- **See your progress** - Track your journey from burnout to balance
 
 **For Companies:**
-- 📈 **Real-time insights** - Know when your team is struggling before it's too late
-- 🚨 **Crisis prevention** - Catch burnout before it becomes a crisis
-- 📋 **Compliance-ready** - HIPAA compliant, audit-ready, enterprise-grade
-- 💰 **ROI that matters** - Reduce turnover, improve productivity, save on healthcare costs
+- **Real-time insights** - Know when your team is struggling before it's too late
+- **Crisis prevention** - Catch burnout before it becomes a crisis
+- **Compliance-ready** - HIPAA compliant, audit-ready, enterprise-grade
+- **ROI that matters** - Reduce turnover, improve productivity, save on healthcare costs
 
-## 🎯 Key Features
+## Key Features
 
 ### For Employees
-- 📱 **Daily Check-ins**: 2-minute stress pulse checks that actually matter
-- 🧘 **Smart Interventions**: AI-powered wellness recommendations tailored to your stress patterns
-- 📊 **Personal Dashboard**: Track your mental health journey with privacy-first analytics
-- 🔔 **Proactive Alerts**: Get help when you need it, not when it's too late
-- 🔒 **100% Private**: Your data is encrypted, anonymized, and yours alone
+- **Daily Check-ins**: 2-minute stress pulse checks that actually matter
+- **Smart Interventions**: AI-powered wellness recommendations tailored to your stress patterns
+- **Personal Dashboard**: Track your mental health journey with privacy-first analytics
+- **Proactive Alerts**: Get help when you need it, not when it's too late
+- **100% Private**: Your data is encrypted, anonymized, and yours alone
 
 ### For Companies
-- 📊 **Real-time Health Monitoring**: See company-wide stress levels without invading privacy
-- 🚨 **Crisis Detection**: Automated flagging for employees at risk
-- 📈 **Department Analytics**: Identify burnout hotspots before they spread
-- 📋 **Compliance Reports**: Generate wellness reports for stakeholders
-- 🎯 **Intervention Tracking**: Measure what actually works
+- **Real-time Health Monitoring**: See company-wide stress levels without invading privacy
+- **Crisis Detection**: Automated flagging for employees at risk
+- **Department Analytics**: Identify burnout hotspots before they spread
+- **Compliance Reports**: Generate wellness reports for stakeholders
+- **Intervention Tracking**: Measure what actually works
 
-## 🏗️ Project Structure
+## Project Structure
 ```
 mindcheck/
 ├── backend/          # Node.js/Express API server
@@ -63,7 +57,7 @@ mindcheck/
 └── docker-compose.yml
 ```
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 Built with modern, battle-tested technologies:
 
@@ -72,10 +66,9 @@ Built with modern, battle-tested technologies:
 - **Dashboard**: React, Material-UI, Chart.js
 - **Infrastructure**: Docker, Nginx
 - **Security**: JWT, bcrypt, AES-256 encryption
+  
 
-## 🎯 MVP Status
-
-### ✅ What's Working Now
+### What's Working Now
 
 - **Backend API**: Full REST API with authentication, check-ins, and admin endpoints
 - **Mobile App**: iOS-ready React Native app with daily check-ins and interventions
@@ -84,7 +77,7 @@ Built with modern, battle-tested technologies:
 - **Crisis Detection**: Automated flagging and escalation system
 - **Intervention Engine**: Smart recommendations based on stress levels
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Node.js 18+ and npm/yarn
@@ -92,7 +85,7 @@ Built with modern, battle-tested technologies:
 - Redis 6+
 - Docker & Docker Compose (optional, but recommended)
 
-### Quick Start with Docker 🐳
+### Quick Start with Docker 
 
 The fastest way to get MentalMadness running:
 
@@ -157,38 +150,8 @@ Key environment variables (see `.env.example` files for full list):
 - `ENCRYPTION_KEY` - 256-bit key for data encryption
 - `EMAIL_HOST`, `EMAIL_PORT`, `EMAIL_USER`, `EMAIL_PASSWORD` - SMTP configuration
 
-## 📚 API Documentation
 
-- **Interactive Docs**: http://localhost:3000/api/docs
-- **Authentication**: Magic link-based passwordless auth (no passwords to forget)
-- **Main Endpoints**:
-  - `POST /api/auth/login` - Request magic link
-  - `POST /api/checkins` - Submit daily check-in
-  - `GET /api/admin/dashboard` - Admin dashboard data
-  - `GET /api/interventions` - Get wellness interventions
-
-## 🔒 Security & Compliance
-
-### HIPAA Compliance
-
-We take privacy seriously. Your mental health data is not a commodity.
-
-- ✅ Encryption at rest (AES-256)
-- ✅ Encryption in transit (TLS 1.2+)
-- ✅ Audit logging for all PHI access
-- ✅ Role-based access control
-- ✅ Automatic session timeout
-- ✅ Data retention policies
-
-### Security Best Practices
-
-- JWT tokens with expiration
-- Rate limiting on all endpoints
-- Input validation and sanitization
-- SQL injection prevention
-- XSS and CSRF protection
-
-## 📱 Mobile App Features
+## Mobile App Features
 
 ### 1. Quick Check-in (< 2 minutes)
 Because your time is valuable:
@@ -209,7 +172,7 @@ See your journey:
 - Check-in streaks (gamification that matters)
 - Intervention effectiveness (what actually helps you)
 
-## 💼 Admin Dashboard Features
+## Admin Dashboard Features
 
 ### 1. Real-time Monitoring
 Know what's happening before it becomes a problem:
@@ -229,7 +192,7 @@ Data that matters:
 - Wellness summaries (for leadership)
 - Intervention effectiveness (what's actually working)
 
-## 🧪 Testing
+## Testing
 
 ```bash
 # Backend tests
@@ -245,7 +208,7 @@ cd dashboard
 npm test
 ```
 
-## 🚢 Deployment
+## Deployment
 
 See [DEPLOYMENT.md](DEPLOYMENT.md) for detailed deployment instructions including:
 - Docker deployment
@@ -254,7 +217,7 @@ See [DEPLOYMENT.md](DEPLOYMENT.md) for detailed deployment instructions includin
 - Database backup strategies
 - Monitoring and scaling
 
-## 🤝 Contributing
+## Contributing
 
 We're building this to solve a real problem. If you've experienced corporate burnout, you know why this matters.
 
@@ -265,7 +228,7 @@ We're building this to solve a real problem. If you've experienced corporate bur
 5. Open a Pull Request
 
 
-## 🙏 Our Mission
+## Our Mission
 
 MentalMadness was born from frustration—the frustration of watching brilliant people burn out, of seeing companies prioritize profits over people, of feeling like mental health is a luxury instead of a right.
 

@@ -693,3 +693,4 @@ async function generateWeeklySummary(companyId) {
 }
 
 module.exports = router;
+

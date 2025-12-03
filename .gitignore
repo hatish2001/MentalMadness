@@ -75,3 +75,5 @@ docker-compose.override.yml
 backups/
 *.backup
 *.sql.gz
+temp_auto_push.bat
+temp_interactive_push.bat
